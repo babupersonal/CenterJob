@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CenterJob/static/css/main.0c97de26.css",
-    "main.js": "/CenterJob/static/js/main.d8eb1086.js",
+    "main.js": "/CenterJob/static/js/main.d8c2136b.js",
     "static/js/453.15d099b8.chunk.js": "/CenterJob/static/js/453.15d099b8.chunk.js",
     "static/media/fa-solid-900.ttf": "/CenterJob/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/CenterJob/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/CenterJob/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/CenterJob/index.html",
     "main.0c97de26.css.map": "/CenterJob/static/css/main.0c97de26.css.map",
-    "main.d8eb1086.js.map": "/CenterJob/static/js/main.d8eb1086.js.map",
+    "main.d8c2136b.js.map": "/CenterJob/static/js/main.d8c2136b.js.map",
     "453.15d099b8.chunk.js.map": "/CenterJob/static/js/453.15d099b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c97de26.css",
-    "static/js/main.d8eb1086.js"
+    "static/js/main.d8c2136b.js"
   ]
 }

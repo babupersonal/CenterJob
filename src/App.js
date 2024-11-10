@@ -17,7 +17,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/CenterJob">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -28,8 +28,8 @@ function App() {
         <Route path="/edu2" element={<Edu2 />} />
         <Route path="/edu3" element={<Edu3 />} />
         <Route path="/game" element={<Game />} />
-        <Route path="/information" element={<Information/>} />
-        <Route path="/evenReg" element={<EventReg/>} />
+        <Route path="/information" element={<Information />} />
+        <Route path="/evenReg" element={<EventReg />} />
         <Route path="/evenHigh" element={<EventHigh />} />
       </Routes>
     </Router>

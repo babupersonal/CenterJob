@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.news{
+    width: 100%;
+    .new-list{
+        width: 100%;
+        flex-direction: column;
+        .item{
+            width: 1200px;
+            height: 120px;
+            border-radius: 60px;
+            background: #282828;
+            margin-bottom: 3%;  
+            justify-content: space-between;
+            img{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+            .describe{
+                width: 70%;
+                padding: 0 30px;
+                color: #fff;
+            }
+            .right{
+                width: 80px;
+                height: 80px;
+                margin: 20px;
+                border-radius: 50%;
+                background:#FFD700;
+                flex-direction: column;
+                padding: 5px;
+                label{  
+                    font-family: 'Lobster', cursive;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                }
+                .date{
+                    font-size: .8rem;
+                }
+            }
+
+        }
+    }
+}

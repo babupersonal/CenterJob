@@ -15,9 +15,9 @@ const Home = () => {
             <Menu></Menu>
             <div className='page'>
                 <div className='icon'>
-                    <div className='img c'><img src='/img/facebook.png' alt='Facebook Icon' /></div>
-                    <div className='img c'><img src='/img/youtube.png' alt='YouTube Icon' /></div>
-                    <div className='img c'><img src='/img/line.png' alt='Line Icon' /></div>
+                    <div className='img c'><img src='/CenterJob/img/facebook.png' alt='Facebook Icon' /></div>
+                    <div className='img c'><img src='/CenterJob/img/youtube.png' alt='YouTube Icon' /></div>
+                    <div className='img c'><img src='/CenterJob/img/line.png' alt='Line Icon' /></div>
                 </div>
                 <Swiper
                     navigation={{
@@ -28,19 +28,19 @@ const Home = () => {
                     className="scroll-img"
                 >
                     <SwiperSlide>
-                        <img className='img' src='/img/page.jpg' alt='Page Slide 1' />
+                        <img className='img' src='/CenterJob/img/page.jpg' alt='Page Slide 1' />
                     </SwiperSlide>
                     <SwiperSlide>Slide 2</SwiperSlide>
                     <SwiperSlide>Slide 3</SwiperSlide>
                 </Swiper>
 
-                <div className="custom-prev">PREV<img src='/img/paper-plane.png'></img></div>
-                <div className="custom-next">NEXT<img src='/img/paper-plane.png'></img></div>
+                <div className="custom-prev">PREV<img src='/CenterJob/img/paper-plane.png'></img></div>
+                <div className="custom-next">NEXT<img src='/CenterJob/img/paper-plane.png'></img></div>
             </div>
 
             <div className='about c'>
                 <div className='img'>
-                    <img src='/img/about.png'></img>
+                    <img src='/CenterJob/img/about.png'></img>
                 </div>
                 <div className='content'>
                     <div className='title'>
@@ -49,7 +49,7 @@ const Home = () => {
 
                     <div className='describe'>希望透過這個平台讓相關單位、技專校院能夠分享辦理的各種活動，藉以發揮技職再造特色，讓大眾了解、認同技職教育並提供相關建議。</div>
                     <div className='btn c'>
-                        瞭解更多<img src='/img/right-arrow.png' className="more_btn"></img>
+                        瞭解更多<img src='/CenterJob/img/right-arrow.png' className="more_btn"></img>
                     </div>
                 </div>
             </div>
@@ -60,10 +60,10 @@ const Home = () => {
                 </div>
                 <div className='content c'>
                     <div className='left c'>
-                        <img src='/img/news.png' className='img'></img>
+                        <img src='/CenterJob/img/news.png' className='img'></img>
                         <div className='btn-frame c'>
                             <div className='btn c'>
-                                瞭解更多<img src='/img/right-arrow.png' className="more_btn"></img>
+                                瞭解更多<img src='/CenterJob/img/right-arrow.png' className="more_btn"></img>
                             </div>
                         </div>
 
@@ -79,7 +79,7 @@ const Home = () => {
                                     <p>嗨，小夥伴們！是時候踏上一段充滿魔法的旅程啦！ 在我們的袖珍鹿角蕨工坊，你會變成一名真正的魔法師，學會如何讓這些小小的綠色生命變成超酷的磁鐵裝飾！你會發現鹿角蕨的神秘生長過程，並且親自動手，把它們變成你的專屬魔法物品。</p>
                                 </div>
                                 <div className='img c'>
-                                    <img src='/img/right-arrow.png' className="more_btn"></img>
+                                    <img src='/CenterJob/img/right-arrow.png' className="more_btn"></img>
                                 </div>
                             </li>
                             <li className='c'>
@@ -91,7 +91,7 @@ const Home = () => {
                                     <p>嗨，小夥伴們！是時候踏上一段充滿魔法的旅程啦！ 在我們的袖珍鹿角蕨工坊，你會變成一名真正的魔法師，學會如何讓這些小小的綠色生命變成超酷的磁鐵裝飾！你會發現鹿角蕨的神秘生長過程，並且親自動手，把它們變成你的專屬魔法物品。</p>
                                 </div>
                                 <div className='img c'>
-                                    <img src='/img/right-arrow.png' className="more_btn"></img>
+                                    <img src='/CenterJob/img/right-arrow.png' className="more_btn"></img>
                                 </div>
                             </li>
                             <li className='c'>
@@ -103,7 +103,7 @@ const Home = () => {
                                     <p>嗨，小夥伴們！是時候踏上一段充滿魔法的旅程啦！ 在我們的袖珍鹿角蕨工坊，你會變成一名真正的魔法師，學會如何讓這些小小的綠色生命變成超酷的磁鐵裝飾！你會發現鹿角蕨的神秘生長過程，並且親自動手，把它們變成你的專屬魔法物品。</p>
                                 </div>
                                 <div className='img c'>
-                                    <img src='/img/right-arrow.png' className="more_btn"></img>
+                                    <img src='/CenterJob/img/right-arrow.png' className="more_btn"></img>
                                 </div>
                             </li>
                         </ul>
@@ -119,21 +119,21 @@ const Home = () => {
                     </div>
                     <div className='card-row c'>
                         <Card
-                            imgSrc='/img/about.png'
+                            imgSrc='/CenterJob/img/about.png'
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
                             endTime='當天報名'
                         />
                         <Card
-                            imgSrc='/img/about.png'
+                            imgSrc='/CenterJob/img/about.png'
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
                             endTime='當天報名'
                         />
                         <Card
-                            imgSrc='/img/about.png'
+                            imgSrc='/CenterJob/img/about.png'
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
@@ -142,21 +142,21 @@ const Home = () => {
                     </div>
                     <div className='card-row c'>
                         <Card
-                            imgSrc='/img/about.png'
+                            imgSrc='/CenterJob/img/about.png'
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
                             endTime='當天報名'
                         />
                         <Card
-                            imgSrc='/img/about.png'
+                            imgSrc='/CenterJob/img/about.png'
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
                             endTime='當天報名'
                         />
                         <Card
-                            imgSrc='/img/about.png'
+                            imgSrc='/CenterJob/img/about.png'
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
@@ -168,7 +168,7 @@ const Home = () => {
                     <h2>LATEST ACTIVITYS</h2>
                 </div>
                 <div className='more-btn btn c'>
-                    瞭解更多<img src='/img/right-arrow.png' className="more_btn"></img>
+                    瞭解更多<img src='/CenterJob/img/right-arrow.png' className="more_btn"></img>
                 </div>
             </div>
             <div className='introduce c'>
@@ -181,11 +181,11 @@ const Home = () => {
                                 <p>展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹</p>
                             </div>
                             <div className='more-btn btn c'>
-                                瞭解更多<img src='/img/right-arrow.png' className="more_btn"></img>
+                                瞭解更多<img src='/CenterJob/img/right-arrow.png' className="more_btn"></img>
                             </div>
                         </div>
                         <div className='img'>
-                            <img className='img' src='/img/introduce.png'></img>
+                            <img className='img' src='/CenterJob/img/introduce.png'></img>
                         </div>
 
                     </div>
@@ -210,35 +210,35 @@ const Home = () => {
                                 }}
                             >
                                 <SwiperSlide className='c'>
-                                    <img src="/img/introduce.png" alt="" />
+                                    <img src="/CenterJob/img/introduce.png" alt="" />
                                     <div className='content c'>
                                         <span>OO區</span>
                                         <p>OO區內容OO區內容OO區內容OO區內容</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className='c'>
-                                    <img src="/img/introduce.png" alt="" />
+                                    <img src="/CenterJob/img/introduce.png" alt="" />
                                     <div className='content c'>
                                         <span>O1區</span>
                                         <p>OO區內容OO區內容OO區內容OO區內容</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className='c'>
-                                    <img src="/img/introduce.png" alt="" />
+                                    <img src="/CenterJob/img/introduce.png" alt="" />
                                     <div className='content c'>
                                         <span>O2區</span>
                                         <p>OO區內容OO區內容OO區內容OO區內容</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className='c'>
-                                    <img src="/img/introduce.png" alt="" />
+                                    <img src="/CenterJob/img/introduce.png" alt="" />
                                     <div className='content c'>
                                         <span>O3區</span>
                                         <p>OO區內容OO區內容OO區內容OO區內容</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className='c'>
-                                    <img src="/img/introduce.png" alt="" />
+                                    <img src="/CenterJob/img/introduce.png" alt="" />
                                     <div className='content c'>
                                         <span>O4區</span>
                                         <p>OO區內容OO區內容OO區內容OO區內容</p>
@@ -246,8 +246,8 @@ const Home = () => {
                                 </SwiperSlide>
                             </Swiper>
 
-                            <div className="custom-prev"><img src='/img/right-arrow.png' alt="Prev" /></div>
-                            <div className="custom-next"><img src='/img/right-arrow.png' alt="Next" /></div>
+                            <div className="custom-prev"><img src='/CenterJob/img/right-arrow.png' alt="Prev" /></div>
+                            <div className="custom-next"><img src='/CenterJob/img/right-arrow.png' alt="Next" /></div>
                             <div className="custom-pagination"></div>
 
                         </div>
@@ -262,11 +262,11 @@ const Home = () => {
                 </div>
                 <div className='mid c'>
                     <div className='logo c'>
-                        <img src='/img/logo.png'></img>
+                        <img src='/CenterJob/img/logo.png'></img>
                         <p>指導單位: 教育部</p>
                     </div>
                     <div className='logo c'>
-                        <img src='/img/logo.png'></img>
+                        <img src='/CenterJob/img/logo.png'></img>
                         <p>指導單位: 教育部</p>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ const MenuPage = ({ title }) => {
                 <div className='img c'><img src='./img/line.png' alt='Line Icon' /></div>
             </div>
             <div className='img'>
-                <img src='../img/menupage.png' alt="Menu Page" />
+                <img src='/CenterJob/img/menupage.png' alt="Menu Page" />
             </div>
             <div className='title'>
                 {title}

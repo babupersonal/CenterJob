@@ -13,7 +13,7 @@ const TextDropDown = ({ index, title, describe }) => {
             <div className='w100 c'>
                 <p><span>{index}.</span> {title}</p>
                 <button className='dropdown-btn c' onClick={toggleDropdown}>
-                    <img src='../img/right-arrow.png' alt="Toggle Arrow" className={isOpen ? 'rotate' : ''}/>
+                    <img src='/CenterJob/img/right-arrow.png' alt="Toggle Arrow" className={isOpen ? 'rotate' : ''}/>
                 </button>
             </div>
             {isOpen && (

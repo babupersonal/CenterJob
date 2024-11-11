@@ -97,9 +97,9 @@ const About = () => {
                         <h3>相關連結</h3>
                     </div>
                     <div className='describe-logo'>
-                        <a href='https://depart.moe.edu.tw/ED2300/Default.aspx'><img src='../img/logo.png'></img></a>
-                        <a href='https://depart.moe.edu.tw/ED2300/Default.aspx'><img src='../img/logo.png'></img></a>
-                        <a href='https://depart.moe.edu.tw/ED2300/Default.aspx'><img src='../img/logo.png'></img></a>
+                        <a href='https://depart.moe.edu.tw/ED2300/Default.aspx'><img src='/CenterJob/img/logo.png'></img></a>
+                        <a href='https://depart.moe.edu.tw/ED2300/Default.aspx'><img src='/CenterJob/img/logo.png'></img></a>
+                        <a href='https://depart.moe.edu.tw/ED2300/Default.aspx'><img src='/CenterJob/img/logo.png'></img></a>
                     </div>
                 </div>
             </div>

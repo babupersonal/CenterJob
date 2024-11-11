@@ -21,9 +21,9 @@ const EventHigh = () => {
             <MenuPage title='活動剪影' />
             <div className='content c'>
                 <div className='frame c'>
-                    <div className='bg c' style={{ backgroundImage: `url(/img/highlight2.png)`, backgroundSize: 'cover' }}>
-                    <img className='image' src='/img/highlight1.png'></img>
-                    <img className='image2' src='/img/highlight1.png'></img>
+                    <div className='bg c' style={{ backgroundImage: `url(/CenterJob/img/highlight2.png)`, backgroundSize: 'cover' }}>
+                    <img className='image' src='/CenterJob/img/highlight1.png'></img>
+                    <img className='image2' src='/CenterJob/img/highlight1.png'></img>
                     <Swiper
                         pagination={pagination}
                         modules={[Pagination]}
@@ -31,37 +31,37 @@ const EventHigh = () => {
                     >
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                     </Swiper>
@@ -88,7 +88,7 @@ const EventHigh = () => {
                         活動剪影介紹嗚嗚嗚嗚嗚嗚</p>
                 </div>
                 <div className='frame c'>
-                    <div className='bg bg2 c' style={{ backgroundImage: `url(/img/highlight2.png)`, backgroundSize: 'cover' }}>
+                    <div className='bg bg2 c' style={{ backgroundImage: `url(/CenterJob/img/highlight2.png)`, backgroundSize: 'cover' }}>
                     <img className='image' src='/img/highlight1.png'></img>
                     <img className='image3' src='/img/highlight1.png'></img>
                     <Swiper
@@ -98,37 +98,22 @@ const EventHigh = () => {
                     >
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='img c'>
-                                <img src='/img/highlight3.png'></img>
+                                <img src='/CenterJob/img/highlight3.png'></img>
                             </div>
                         </SwiperSlide>
                     </Swiper>

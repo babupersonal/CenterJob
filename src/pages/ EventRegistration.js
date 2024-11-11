@@ -34,44 +34,21 @@ const EventReg = () => {
                 <img className={`reg2 ${scrolling ? 'show' : ''}`} src='/img/reg2.png' alt='Reg2' />
                 <div className='card-row c'>
                     <Card
-                        imgSrc='./img/about.png'
+                        imgSrc='/CenterJob/img/about.png'
                         description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                         time='2024-7-19 ~ 2024-7-19'
                         location='國資圖本館二樓第一會議室'
                         endTime='當天報名'
                     />
                     <Card
-                        imgSrc='./img/about.png'
+                        imgSrc='/CenterJob/img/about.png'
                         description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                         time='2024-7-19 ~ 2024-7-19'
                         location='國資圖本館二樓第一會議室'
                         endTime='當天報名'
                     />
                     <Card
-                        imgSrc='./img/about.png'
-                        description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
-                        time='2024-7-19 ~ 2024-7-19'
-                        location='國資圖本館二樓第一會議室'
-                        endTime='當天報名'
-                    />
-                </div>
-                <div className='card-row c'>
-                    <Card
-                        imgSrc='./img/about.png'
-                        description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
-                        time='2024-7-19 ~ 2024-7-19'
-                        location='國資圖本館二樓第一會議室'
-                        endTime='當天報名'
-                    />
-                    <Card
-                        imgSrc='./img/about.png'
-                        description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
-                        time='2024-7-19 ~ 2024-7-19'
-                        location='國資圖本館二樓第一會議室'
-                        endTime='當天報名'
-                    />
-                    <Card
-                        imgSrc='./img/about.png'
+                        imgSrc='/CenterJob/img/about.png'
                         description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                         time='2024-7-19 ~ 2024-7-19'
                         location='國資圖本館二樓第一會議室'
@@ -80,21 +57,44 @@ const EventReg = () => {
                 </div>
                 <div className='card-row c'>
                     <Card
-                        imgSrc='./img/about.png'
+                        imgSrc='/CenterJob/img/about.png'
                         description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                         time='2024-7-19 ~ 2024-7-19'
                         location='國資圖本館二樓第一會議室'
                         endTime='當天報名'
                     />
                     <Card
-                        imgSrc='./img/about.png'
+                        imgSrc='/CenterJob/img/about.png'
                         description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                         time='2024-7-19 ~ 2024-7-19'
                         location='國資圖本館二樓第一會議室'
                         endTime='當天報名'
                     />
                     <Card
-                        imgSrc='./img/about.png'
+                        imgSrc='/CenterJob/img/about.png'
+                        description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
+                        time='2024-7-19 ~ 2024-7-19'
+                        location='國資圖本館二樓第一會議室'
+                        endTime='當天報名'
+                    />
+                </div>
+                <div className='card-row c'>
+                    <Card
+                        imgSrc='/CenterJob/img/about.png'
+                        description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
+                        time='2024-7-19 ~ 2024-7-19'
+                        location='國資圖本館二樓第一會議室'
+                        endTime='當天報名'
+                    />
+                    <Card
+                        imgSrc='/CenterJob/img/about.png'
+                        description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
+                        time='2024-7-19 ~ 2024-7-19'
+                        location='國資圖本館二樓第一會議室'
+                        endTime='當天報名'
+                    />
+                    <Card
+                        imgSrc='/CenterJob/img/about.png'
                         description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                         time='2024-7-19 ~ 2024-7-19'
                         location='國資圖本館二樓第一會議室'

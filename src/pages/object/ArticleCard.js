@@ -4,7 +4,7 @@ import '../../style/article.scss';
 const ArticleCard = ({ title, describe, labels, date }) => {
     return (
         <div className='card c'>
-            <img src='../img/article.png' alt="Article" />
+            <img src='/CenterJob/img/article.png' alt="Article" />
             <div className='item c'>
                 <div>
                     <div className='title'>

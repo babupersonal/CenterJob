@@ -168,7 +168,7 @@ const Home = () => {
                     <h2>LATEST ACTIVITYS</h2>
                 </div>
                 <div className='more-btn btn c'>
-                    瞭解更多<img src='/img/right-arrow.png' className="more_btn"></img>
+                    瞭解更多<img src='/CenterJob/img/right-arrow.png' className="more_btn"></img>
                 </div>
             </div>
             <div className='introduce c'>

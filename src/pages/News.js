@@ -12,19 +12,19 @@ const News = () => {
       <MenuPage title="最新消息" />
       <div className='new-list c'>
         <NewList 
-          img = "../img/news.jpg"
+          img = "/CenterJob/img/news.jpg"
           describe = "最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走!!!!!!"
           label = "教育"
           date = "2024-11-8"
         />
         <NewList 
-          img = "../img/news.jpg"
+          img = "/CenterJob/img/news.jpg"
           describe = "最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走!!!!!!"
           label = "教育"
           date = "2024-11-8"
         />
         <NewList 
-          img = "../img/news.jpg"
+          img = "/CenterJob/img/news.jpg"
           describe = "最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走最新消息誰家企鵝離家出走!!!!!!"
           label = "教育"
           date = "2024-11-8"

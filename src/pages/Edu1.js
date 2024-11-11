@@ -80,7 +80,7 @@ const Edu1 = () => {
                     {groups.map((group, index) => (
                         <SwiperSlide key={index} onClick={() => setSelectedGroup(group)}>
                             <div className="icon c">
-                                <img src='../img/edu-icon.png' alt={group.title} />
+                                <img src='/CenterJob/img/edu-icon.png' alt={group.title} />
                                 <p>{group.title}</p>
                             </div>
                         </SwiperSlide>

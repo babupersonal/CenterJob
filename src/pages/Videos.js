@@ -35,15 +35,15 @@ const Videos = () => {
         <div className="describe c">
           <p>影音內容介紹...影音內容介紹...影音內容介紹...影音內容介紹...</p>
           <div className="btn c">
-            瞭解更多<img src='./img/right-arrow.png' className="more_btn" />
+            瞭解更多<img src='/CenterJob/img/right-arrow.png' className="more_btn" />
           </div>
         </div>
         <div className="video-container" onClick={togglePlayPause}>
-          <video ref={videoRef} src="../img/video.mp4" className="video-element"></video>
+          <video ref={videoRef} src="/CenterJob/img/video.mp4" className="video-element"></video>
           {showButton && (
             <button className="play-pause-btn c">
               <img 
-                src={isPlaying ? "../img/pause.png" : "../img/play-button.png"} 
+                src={isPlaying ? "/CenterJob/img/pause.png" : "/CenterJob/img/play-button.png"} 
                 alt={isPlaying ? "Pause" : "Play"} 
                 className="play-pause-icon" 
               />
@@ -78,7 +78,7 @@ const Videos = () => {
           <SwiperSlide>
             <div className="vdo">
               <div className="img c">
-                <img src="../img/introduce.png" alt="Video Thumbnail" />
+                <img src="/CenterJob/img/introduce.png" alt="Video Thumbnail" />
               </div>
               <div className="content">
                 <p>影片描述1</p>
@@ -88,7 +88,7 @@ const Videos = () => {
           <SwiperSlide>
             <div className="vdo">
               <div className="img c">
-                <img src="../img/introduce.png" alt="Video Thumbnail" />
+                <img src="/CenterJob/img/introduce.png" alt="Video Thumbnail" />
               </div>
               <div className="content">
                 <p>影片描述2</p>
@@ -98,7 +98,7 @@ const Videos = () => {
           <SwiperSlide>
             <div className="vdo">
               <div className="img c">
-                <img src="../img/introduce.png" alt="Video Thumbnail" />
+                <img src="/CenterJob/img/introduce.png" alt="Video Thumbnail" />
               </div>
               <div className="content">
                 <p>影片描述3</p>
@@ -108,7 +108,7 @@ const Videos = () => {
           <SwiperSlide>
             <div className="vdo">
               <div className="img c">
-                <img src="../img/introduce.png" alt="Video Thumbnail" />
+                <img src="/CenterJob/img/introduce.png" alt="Video Thumbnail" />
               </div>
               <div className="content">
                 <p>影片描述3</p>
@@ -118,7 +118,7 @@ const Videos = () => {
           <SwiperSlide>
             <div className="vdo">
               <div className="img c">
-                <img src="../img/introduce.png" alt="Video Thumbnail" />
+                <img src="/CenterJob/img/introduce.png" alt="Video Thumbnail" />
               </div>
               <div className="content">
                 <p>影片描述3</p>

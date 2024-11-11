@@ -12,7 +12,7 @@ const Edu2 = () => {
             <MenuPage title='升學五專' />
             <div className='item1 c'>
                 <div className='img c'>
-                    <img src='../img/news.png'></img>
+                    <img src='/CenterJob/img/news.png'></img>
                 </div>
                 <div className='describe c'>
                     五專為「專科學校五年制」簡稱，招收國中畢業生，修業5年，畢業後可取得副學士學位，為培育中級技術人力的重要管道之一。
@@ -51,7 +51,7 @@ const Edu2 = () => {
                     配合實施十二年國民基本教育，五專各校科以「免試入學」為主要招生管道，另有七年一貫制系組採「特色招生入學」辦理招生，希望引導國中畢業生依其性向、興趣與能力發展，輔導學生適性發展。
                 </div>
                 <div className='img c'>
-                    <img src='../img/edu2.png'></img>
+                    <img src='/CenterJob/img/edu2.png'></img>
                 </div>
             </div>
             <Footer />

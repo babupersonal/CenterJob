@@ -10,26 +10,18 @@ import 'swiper/css/navigation';
 import '../style/home.scss';
 
 const Home = () => {
+    const imgPath = (fileName) => process.env.PUBLIC_URL + '/img/' + fileName;
+
     return (
         <>
-            <Menu></Menu>
+            <Menu />
             <div className='page'>
                 <div className='icon'>
-                
-                <div className='img c'><img src='/CenterJob/img/facebook.png' alt='Facebook Icon' /></div>
-                    {/* <div className='img c'>
-                        <img src={process.env.PUBLIC_URL + '/img/facebook.png'} alt='Facebook Icon' />
-                    </div>
-                    <div className='img c'>
-                        <img src={process.env.PUBLIC_URL + '/img/youtube.png'} alt='Youtube Icon' />
-                    </div>
-                    <div className='img c'>
-                        <img src={process.env.PUBLIC_URL + '/img/line.png'} alt='Line Icon' />
-                    </div> */}
-                    {/* <div className='img c'><img src='./img/facebook.png' alt='Facebook Icon' /></div>
-                    <div className='img c'><img src='./img/youtube.png' alt='YouTube Icon' /></div>
-                    <div className='img c'><img src='./img/line.png' alt='Line Icon' /></div> */}
+                    <div className='img c'><img src={imgPath('facebook.png')} alt='Facebook Icon' /></div>
+                    <div className='img c'><img src={imgPath('youtube.png')} alt='Youtube Icon' /></div>
+                    <div className='img c'><img src={imgPath('line.png')} alt='Line Icon' /></div>
                 </div>
+
                 <Swiper
                     navigation={{
                         prevEl: '.custom-prev',
@@ -39,28 +31,30 @@ const Home = () => {
                     className="scroll-img"
                 >
                     <SwiperSlide>
-                        <img className='img' src='./img/page.jpg' alt='Page Slide 1' />
+                        <img className='img' src={imgPath('page.jpg')} alt='Page Slide 1' />
                     </SwiperSlide>
                     <SwiperSlide>Slide 2</SwiperSlide>
                     <SwiperSlide>Slide 3</SwiperSlide>
                 </Swiper>
 
-                <div className="custom-prev">PREV<img src='./img/paper-plane.png'></img></div>
-                <div className="custom-next">NEXT<img src='./img/paper-plane.png'></img></div>
+                <div className="custom-prev">PREV<img src={imgPath('paper-plane.png')} alt="Prev" /></div>
+                <div className="custom-next">NEXT<img src={imgPath('paper-plane.png')} alt="Next" /></div>
             </div>
 
             <div className='about c'>
                 <div className='img'>
-                    <img src='./img/about.png'></img>
+                    <img src={imgPath('about.png')} alt="About" />
                 </div>
                 <div className='content'>
                     <div className='title'>
                         <h2>關於我們</h2><span>ABOUT US</span>
                     </div>
 
-                    <div className='describe'>希望透過這個平台讓相關單位、技專校院能夠分享辦理的各種活動，藉以發揮技職再造特色，讓大眾了解、認同技職教育並提供相關建議。</div>
+                    <div className='describe'>
+                        希望透過這個平台讓相關單位、技專校院能夠分享辦理的各種活動，藉以發揮技職再造特色，讓大眾了解、認同技職教育並提供相關建議。
+                    </div>
                     <div className='btn c'>
-                        瞭解更多<img src='./img/right-arrow.png' className="more_btn"></img>
+                        瞭解更多<img src={imgPath('right-arrow.png')} className="more_btn" alt="More" />
                     </div>
                 </div>
             </div>
@@ -71,13 +65,12 @@ const Home = () => {
                 </div>
                 <div className='content c'>
                     <div className='left c'>
-                        <img src='./img/news.png' className='img'></img>
+                        <img src={imgPath('news.png')} className='img' alt="News" />
                         <div className='btn-frame c'>
                             <div className='btn c'>
-                                瞭解更多<img src='./img/right-arrow.png' className="more_btn"></img>
+                                瞭解更多<img src={imgPath('right-arrow.png')} className="more_btn" alt="More" />
                             </div>
                         </div>
-
                     </div>
                     <div className='right c'>
                         <ul>
@@ -87,10 +80,12 @@ const Home = () => {
                                         <h2>新上架影音與文章<span className='date'> -- 2024.11.01</span></h2>
                                         <h3>四校串聯北中南，共築技職探索平臺－沉浸式體驗翻轉迷思，開啟學生適性之路</h3>
                                     </div>
-                                    <p>這幾年，隨著台積電海外建廠的需求不墜，許多人也搶進護國神山。然而除了負責產品或技術研發、設計、測試、改良等工作的研發工程師外，後端的製程、設備、廠務和智慧製造、良率提升等相關工作，也需要工程師和技術員撐起整條產品線。再加上半導體產業對於精密度的要求，從前期建廠、打造無塵室開始，就需要協作廠商的建廠、建築、儀電和弱電等工程師和技師。很多人不清楚，這些人才多半出身自技職體系，經過系統性培育，以優秀的實作能力獲得台積電或周邊廠商青睞。</p>
+                                    <p>
+                                        這幾年，隨著台積電海外建廠的需求不墜，許多人也搶進護國神山。然而除了負責產品或技術研發、設計、測試、改良等工作的研發工程師外，後端的製程、設備、廠務和智慧製造、良率提升等相關工作，也需要工程師和技術員撐起整條產品線。再加上半導體產業對於精密度的要求，從前期建廠、打造無塵室開始，就需要協作廠商的建廠、建築、儀電和弱電等工程師和技師。很多人不清楚，這些人才多半出身自技職體系，經過系統性培育，以優秀的實作能力獲得台積電或周邊廠商青睞。
+                                    </p>
                                 </div>
                                 <div className='img c'>
-                                    <img src='./img/right-arrow.png' className="more_btn"></img>
+                                    <img src={imgPath('right-arrow.png')} className="more_btn" alt="More" />
                                 </div>
                             </li>
                             <li className='c'>
@@ -99,10 +94,12 @@ const Home = () => {
                                         <h2>各類職探試探消息<span className='date'> -- 2024.11.01</span></h2>
                                         <h3>技職永續破風者／職業試探與適性發展聯合推動總辦計畫－深化職涯探索，打造技職永續新動力路</h3>
                                     </div>
-                                    <p>隨著戰後嬰兒潮世代陸續邁入退休，加上少子化問題日益嚴峻，二〇二五年五月全臺新生兒數僅八千四百三十三人，創下歷史單月新低，人口總數也已連續十七個月呈現負成長，勞動人口比例首度跌破七成，驗證了十多年前各界熱議的「大缺工時代」預言，成為產、官、學界亟欲聯手解決的重大課題。</p>
+                                    <p>
+                                        隨著戰後嬰兒潮世代陸續邁入退休，加上少子化問題日益嚴峻，二〇二五年五月全臺新生兒數僅八千四百三十三人，創下歷史單月新低，人口總數也已連續十七個月呈現負成長，驗證了十多年前各界熱議的「大缺工時代」預言，成為產、官、學界亟欲聯手解決的重大課題。
+                                    </p>
                                 </div>
                                 <div className='img c'>
-                                    <img src='./img/right-arrow.png' className="more_btn"></img>
+                                    <img src={imgPath('right-arrow.png')} className="more_btn" alt="More" />
                                 </div>
                             </li>
                             <li className='c'>
@@ -111,16 +108,19 @@ const Home = () => {
                                         <h2>技職新視界<span className='date'> -- 2024.11.01</span></h2>
                                         <h3>魔法森林的秘密-袖珍鹿角蕨工坊</h3>
                                     </div>
-                                    <p>嗨，小夥伴們！是時候踏上一段充滿魔法的旅程啦！ 在我們的袖珍鹿角蕨工坊，你會變成一名真正的魔法師，學會如何讓這些小小的綠色生命變成超酷的磁鐵裝飾！你會發現鹿角蕨的神秘生長過程，並且親自動手，把它們變成你的專屬魔法物品。</p>
+                                    <p>
+                                        嗨，小夥伴們！是時候踏上一段充滿魔法的旅程啦！ 在我們的袖珍鹿角蕨工坊，你會變成一名真正的魔法師，學會如何讓這些小小的綠色生命變成超酷的磁鐵裝飾！你會發現鹿角蕨的神秘生長過程，並且親自動手，把它們變成你的專屬魔法物品。
+                                    </p>
                                 </div>
                                 <div className='img c'>
-                                    <img src='./img/right-arrow.png' className="more_btn"></img>
+                                    <img src={imgPath('right-arrow.png')} className="more_btn" alt="More" />
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+
             <div className='activity c'>
                 <div className='content c'>
                     <div className='w100'>
@@ -130,21 +130,21 @@ const Home = () => {
                     </div>
                     <div className='card-row c'>
                         <Card
-                            imgSrc='./img/about.png'
+                            imgSrc={imgPath('about.png')}
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
                             endTime='當天報名'
                         />
                         <Card
-                            imgSrc='./img/about.png'
+                            imgSrc={imgPath('about.png')}
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
                             endTime='當天報名'
                         />
                         <Card
-                            imgSrc='./img/about.png'
+                            imgSrc={imgPath('about.png')}
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
@@ -153,21 +153,21 @@ const Home = () => {
                     </div>
                     <div className='card-row c'>
                         <Card
-                            imgSrc='./img/about.png'
+                            imgSrc={imgPath('about.png')}
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
                             endTime='當天報名'
                         />
                         <Card
-                            imgSrc='./img/about.png'
+                            imgSrc={imgPath('about.png')}
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
                             endTime='當天報名'
                         />
                         <Card
-                            imgSrc='./img/about.png'
+                            imgSrc={imgPath('about.png')}
                             description='Clicbot程式教育機器人 技術體驗+職業試探體驗課程'
                             time='2024-7-19 ~ 2024-7-19'
                             location='國資圖本館二樓第一會議室'
@@ -179,9 +179,10 @@ const Home = () => {
                     <h2>LATEST ACTIVITYS</h2>
                 </div>
                 <div className='more-btn btn c'>
-                    瞭解更多<img src='./img/right-arrow.png' className="more_btn"></img>
+                    瞭解更多<img src={imgPath('right-arrow.png')} className="more_btn" alt="More" />
                 </div>
             </div>
+
             <div className='introduce c'>
                 <div className='text'><h2>VENUE INTRODUCTION</h2></div>
                 <div className='content c'>
@@ -192,13 +193,12 @@ const Home = () => {
                                 <p>展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹展場介紹</p>
                             </div>
                             <div className='more-btn btn c'>
-                                瞭解更多<img src='./img/right-arrow.png' className="more_btn"></img>
+                                瞭解更多<img src={imgPath('right-arrow.png')} className="more_btn" alt="More" />
                             </div>
                         </div>
                         <div className='img'>
-                            <img className='img' src='./img/introduce.png'></img>
+                            <img className='img' src={imgPath('introduce.png')} alt="Introduce" />
                         </div>
-
                     </div>
                     <div className='scroll c'>
                         <div className='separate'>
@@ -220,51 +220,25 @@ const Home = () => {
                                     clickable: true,
                                 }}
                             >
-                                <SwiperSlide className='c'>
-                                    <img src="./img/introduce.png" alt="" />
-                                    <div className='content c'>
-                                        <span>OO區</span>
-                                        <p>OO區內容OO區內容OO區內容OO區內容</p>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='c'>
-                                    <img src="./img/introduce.png" alt="" />
-                                    <div className='content c'>
-                                        <span>O1區</span>
-                                        <p>OO區內容OO區內容OO區內容OO區內容</p>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='c'>
-                                    <img src="./img/introduce.png" alt="" />
-                                    <div className='content c'>
-                                        <span>O2區</span>
-                                        <p>OO區內容OO區內容OO區內容OO區內容</p>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='c'>
-                                    <img src="./img/introduce.png" alt="" />
-                                    <div className='content c'>
-                                        <span>O3區</span>
-                                        <p>OO區內容OO區內容OO區內容OO區內容</p>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='c'>
-                                    <img src="./img/introduce.png" alt="" />
-                                    <div className='content c'>
-                                        <span>O4區</span>
-                                        <p>OO區內容OO區內容OO區內容OO區內容</p>
-                                    </div>
-                                </SwiperSlide>
+                                {[0,1,2,3,4].map((_,i)=>(
+                                    <SwiperSlide className='c' key={i}>
+                                        <img src={imgPath('introduce.png')} alt="" />
+                                        <div className='content c'>
+                                            <span>O{i}區</span>
+                                            <p>OO區內容OO區內容OO區內容OO區內容</p>
+                                        </div>
+                                    </SwiperSlide>
+                                ))}
                             </Swiper>
 
-                            <div className="custom-prev"><img src='./img/right-arrow.png' alt="Prev" /></div>
-                            <div className="custom-next"><img src='./img/right-arrow.png' alt="Next" /></div>
+                            <div className="custom-prev"><img src={imgPath('right-arrow.png')} alt="Prev" /></div>
+                            <div className="custom-next"><img src={imgPath('right-arrow.png')} alt="Next" /></div>
                             <div className="custom-pagination"></div>
-
                         </div>
                     </div>
                 </div>
             </div>
+
             <div className='contact c'>
                 <div className='left c'>
                     <h2 className='name'>破風者計畫</h2>
@@ -273,34 +247,32 @@ const Home = () => {
                 </div>
                 <div className='mid c'>
                     <div className='logo c'>
-                        <img src='./img/logo.png'></img>
-                        <p>指導單位: 教育部</p>
+                        <img src={imgPath('logo.png')} alt="Logo" />
+                        <p>指導單位: 教育部</p>
                     </div>
                     <div className='logo c'>
-                        <img src='./img/logo.png'></img>
-                        <p>指導單位: 教育部</p>
+                        <img src={imgPath('logo.png')} alt="Logo" />
+                        <p>指導單位: 教育部</p>
                     </div>
                 </div>
                 <div className='right c'>
                     <div className='rl c'>
                         <p>
-                            協辦單位<br></br>
-                            <br></br>
-                            國立臺灣科學教育館<br></br>
-                            國立公共資訊圖書館<br></br>
-                            國立科學工藝博物館<br></br>
+                            協辦單位<br/><br/>
+                            國立臺灣科學教育館<br/>
+                            國立公共資訊圖書館<br/>
+                            國立科學工藝博物館<br/>
                         </p>
                     </div>
                     <div className='rr c'>
                         <p>
-                            <br></br>
-                            國立臺灣科技大學<br></br>
-                            國立虎尾科技大學<br></br>
-                            國立高雄科技大學<br></br>
-                            國立屏東科技大學<br></br>
+                            <br/>
+                            國立臺灣科技大學<br/>
+                            國立虎尾科技大學<br/>
+                            國立高雄科技大學<br/>
+                            國立屏東科技大學<br/>
                         </p>
                     </div>
-
                 </div>
             </div>
             <Footer />

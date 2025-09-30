@@ -15,9 +15,20 @@ const Home = () => {
             <Menu></Menu>
             <div className='page'>
                 <div className='icon'>
-                    <div className='img c'><img src='./img/facebook.png' alt='Facebook Icon' /></div>
+                
+                <div className='img c'><img src='/CenterJob/img/facebook.png' alt='Facebook Icon' /></div>
+                    {/* <div className='img c'>
+                        <img src={process.env.PUBLIC_URL + '/img/facebook.png'} alt='Facebook Icon' />
+                    </div>
+                    <div className='img c'>
+                        <img src={process.env.PUBLIC_URL + '/img/youtube.png'} alt='Youtube Icon' />
+                    </div>
+                    <div className='img c'>
+                        <img src={process.env.PUBLIC_URL + '/img/line.png'} alt='Line Icon' />
+                    </div> */}
+                    {/* <div className='img c'><img src='./img/facebook.png' alt='Facebook Icon' /></div>
                     <div className='img c'><img src='./img/youtube.png' alt='YouTube Icon' /></div>
-                    <div className='img c'><img src='./img/line.png' alt='Line Icon' /></div>
+                    <div className='img c'><img src='./img/line.png' alt='Line Icon' /></div> */}
                 </div>
                 <Swiper
                     navigation={{
